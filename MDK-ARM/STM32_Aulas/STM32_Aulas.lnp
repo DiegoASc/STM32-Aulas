@@ -1,5 +1,0 @@
---cpu Cortex-M3 "stm32_aulas\startup_stm32f103xb.o" "stm32_aulas\main.o" "stm32_aulas\gpio.o" "stm32_aulas\i2c.o" "stm32_aulas\stm32f1xx_it.o" "stm32_aulas\stm32f1xx_hal_msp.o" "stm32_aulas\aula_2_display.o" "stm32_aulas\oled_hal_i2c.o" "stm32_aulas\stm32f1xx_hal_gpio_ex.o" "stm32_aulas\stm32f1xx_hal_i2c.o" "stm32_aulas\stm32f1xx_hal_tim.o" "stm32_aulas\stm32f1xx_hal_tim_ex.o" "stm32_aulas\stm32f1xx_hal.o" "stm32_aulas\stm32f1xx_hal_rcc.o" "stm32_aulas\stm32f1xx_hal_rcc_ex.o" "stm32_aulas\stm32f1xx_hal_gpio.o" "stm32_aulas\stm32f1xx_hal_dma.o" "stm32_aulas\stm32f1xx_hal_cortex.o" "stm32_aulas\stm32f1xx_hal_pwr.o" "stm32_aulas\stm32f1xx_hal_flash.o" "stm32_aulas\stm32f1xx_hal_flash_ex.o" "stm32_aulas\system_stm32f1xx.o" 
---library_type=microlib --strict --scatter "STM32_Aulas\STM32_Aulas.sct" 
---diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list "STM32_Aulas.map" -o STM32_Aulas\STM32_Aulas.axf
