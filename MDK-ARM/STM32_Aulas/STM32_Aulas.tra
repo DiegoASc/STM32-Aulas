@@ -2,12 +2,15 @@
 ### Preparing for ADS-LD.
 ### Creating ADS-LD Command Line
 ### List of Objects: adding '"stm32_aulas\startup_stm32f103xb.o"'
-### List of Objects: adding '"stm32_aulas\aula_1_led.o"'
 ### List of Objects: adding '"stm32_aulas\main.o"'
 ### List of Objects: adding '"stm32_aulas\gpio.o"'
+### List of Objects: adding '"stm32_aulas\i2c.o"'
 ### List of Objects: adding '"stm32_aulas\stm32f1xx_it.o"'
 ### List of Objects: adding '"stm32_aulas\stm32f1xx_hal_msp.o"'
+### List of Objects: adding '"stm32_aulas\aula_2_display.o"'
+### List of Objects: adding '"stm32_aulas\oled_hal_i2c.o"'
 ### List of Objects: adding '"stm32_aulas\stm32f1xx_hal_gpio_ex.o"'
+### List of Objects: adding '"stm32_aulas\stm32f1xx_hal_i2c.o"'
 ### List of Objects: adding '"stm32_aulas\stm32f1xx_hal_tim.o"'
 ### List of Objects: adding '"stm32_aulas\stm32f1xx_hal_tim_ex.o"'
 ### List of Objects: adding '"stm32_aulas\stm32f1xx_hal.o"'
@@ -21,7 +24,7 @@
 ### List of Objects: adding '"stm32_aulas\stm32f1xx_hal_flash_ex.o"'
 ### List of Objects: adding '"stm32_aulas\system_stm32f1xx.o"'
 ### ADS-LD Command completed:
---cpu Cortex-M3 "stm32_aulas\startup_stm32f103xb.o" "stm32_aulas\aula_1_led.o" "stm32_aulas\main.o" "stm32_aulas\gpio.o" "stm32_aulas\stm32f1xx_it.o" "stm32_aulas\stm32f1xx_hal_msp.o" "stm32_aulas\stm32f1xx_hal_gpio_ex.o" "stm32_aulas\stm32f1xx_hal_tim.o" "stm32_aulas\stm32f1xx_hal_tim_ex.o" "stm32_aulas\stm32f1xx_hal.o" "stm32_aulas\stm32f1xx_hal_rcc.o" "stm32_aulas\stm32f1xx_hal_rcc_ex.o" "stm32_aulas\stm32f1xx_hal_gpio.o" "stm32_aulas\stm32f1xx_hal_dma.o" "stm32_aulas\stm32f1xx_hal_cortex.o" "stm32_aulas\stm32f1xx_hal_pwr.o" "stm32_aulas\stm32f1xx_hal_flash.o" "stm32_aulas\stm32f1xx_hal_flash_ex.o" "stm32_aulas\system_stm32f1xx.o" 
+--cpu Cortex-M3 "stm32_aulas\startup_stm32f103xb.o" "stm32_aulas\main.o" "stm32_aulas\gpio.o" "stm32_aulas\i2c.o" "stm32_aulas\stm32f1xx_it.o" "stm32_aulas\stm32f1xx_hal_msp.o" "stm32_aulas\aula_2_display.o" "stm32_aulas\oled_hal_i2c.o" "stm32_aulas\stm32f1xx_hal_gpio_ex.o" "stm32_aulas\stm32f1xx_hal_i2c.o" "stm32_aulas\stm32f1xx_hal_tim.o" "stm32_aulas\stm32f1xx_hal_tim_ex.o" "stm32_aulas\stm32f1xx_hal.o" "stm32_aulas\stm32f1xx_hal_rcc.o" "stm32_aulas\stm32f1xx_hal_rcc_ex.o" "stm32_aulas\stm32f1xx_hal_gpio.o" "stm32_aulas\stm32f1xx_hal_dma.o" "stm32_aulas\stm32f1xx_hal_cortex.o" "stm32_aulas\stm32f1xx_hal_pwr.o" "stm32_aulas\stm32f1xx_hal_flash.o" "stm32_aulas\stm32f1xx_hal_flash_ex.o" "stm32_aulas\system_stm32f1xx.o" 
 --library_type=microlib --strict --scatter "STM32_Aulas\STM32_Aulas.sct" 
 --diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
@@ -29,7 +32,7 @@
 ### ADS-LD Output File: 'STM32_Aulas\STM32_Aulas.axf'
 ### ADS-LD Command File: 'STM32_Aulas\STM32_Aulas.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'STM32_Aulas\STM32_Aulas.lnp', Handle=0x000007D4
+### Creating CmdFile 'STM32_Aulas\STM32_Aulas.lnp', Handle=0x00000C5C
 ### Writing '.lnp' file
 ### ADS-LD Command file 'STM32_Aulas\STM32_Aulas.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
