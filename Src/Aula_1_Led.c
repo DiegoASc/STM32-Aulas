@@ -13,8 +13,8 @@ void setup(void)//Configurações iniciais do código e de seus periféricos.
 void loop(void)//Aulas: Função chamada a cada ciclo em um looping infinito.
 {
   HAL_GPIO_WritePin(LED_1_GPIO_Port, LED_1_Pin, GPIO_PIN_RESET);
-	HAL_Delay(500);	
+	HAL_Delay(50);	
 	HAL_GPIO_WritePin(LED_1_GPIO_Port, LED_1_Pin, GPIO_PIN_SET);
-	HAL_Delay(500);	
+	HAL_Delay(50);	
 }
 

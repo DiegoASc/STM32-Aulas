@@ -39,6 +39,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f1xx_hal.h"
+#include "i2c.h"
 #include "gpio.h"
 
 /* USER CODE BEGIN Includes */
@@ -93,6 +94,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
 	setup();//Aulas: Configurações iniciais do código e de seus periféricos.
   /* USER CODE END 2 */
